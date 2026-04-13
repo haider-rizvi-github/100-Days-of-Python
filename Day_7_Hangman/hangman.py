@@ -9,7 +9,7 @@ guessed_word = RandomWord()
 words = guessed_word.word(
     word_min_length=2, word_max_length=10, include_categories=["verb"]
 )
-print(words)
+# print(words)
 
 # print(len(words))  # To check the length of the word
 lives = len(words)
